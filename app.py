@@ -911,3 +911,13 @@ st.caption(
     "For educational and research purposes only. "
     "Not intended for clinical diagnosis."
 )
+
+st.markdown("""
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+.viewerBadge_container__1QSob {
+    display: none !important;
+}
+</style>
+""", unsafe_allow_html=True)
